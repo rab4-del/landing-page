@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+ul {
+  list-style-type: none;  
+}
+
+.maintitle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    flex-basis: 250px;
+}
+
+.container1 {
+    background-color: #1f2937;
+}

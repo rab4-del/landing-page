@@ -1,11 +1,16 @@
+body {
+    margin: 0px;
+}
+
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 15px;
 }
 
-.links {
+.headerlinks {
     display: flex;
+    color: #E5E7EB;
     gap: 10px;
 }
 
@@ -15,7 +20,8 @@ ul {
 
 .maintitle {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 50px 0px;
 }
 
 .text {
@@ -24,8 +30,67 @@ ul {
 
 .container1 {
     background-color: #1f2937;
+    padding: 0px 17vw 50px 17vw;
 }
 
- {
+h1 {
+    color: #F9FAF8
+}
 
+h2 {
+    color: #E5E7EB
+}
+
+.text p {
+    color: #E5E7EB
+}   
+
+.text button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px 15px;
+    color: white;
+    outline: none;
+}
+
+.container2 {
+    margin-bottom: 50px;
+}
+
+.container2 h1 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.imagesection {
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+.description {
+    text-align: center;
+    max-width: 150px;
+}
+
+.description img {
+    border-radius: 15px;
+}
+
+.container3 {
+    padding: 50px 0px;
+    background-color: lightgrey;
+}
+
+.quote {
+    font-size: 35px;
+    margin: 30px 25vw 0px 25vw
+}
+
+.container3 p {
+    text-align: right;
+    margin-right: 28vw;
+    font-size: 18px;
 }
